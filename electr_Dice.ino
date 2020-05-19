@@ -1,6 +1,6 @@
 /*MStronik♥Arduino♥Electronic dice
  * https://mstronik.blog/2018/10/19/electronic-dice/
- * Simulierung von einem elektronische Würfel
+ * Simulierung von einem elektronischen Würfel
  * mit Random-Funktion
  */
 int pushButton = 2;
