@@ -108,7 +108,7 @@ void show_number(int num){
       show_number(i);
       delay(500);
     }
-    for (i=6; i>0; i--){
+    for (i=5; i>0; i--){
       show_number(i);
       delay(500);
     }
