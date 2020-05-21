@@ -17,7 +17,7 @@ void setup() {
   pinMode(LED_3_6, OUTPUT);
   pinMode(LED_7, OUTPUT);
   pinMode(pushButton, INPUT);
-  randomSeed(analogRead(pushButton));
+  randomSeed(analogRead(0));
   //Serial.begin(9600);
 }
 
