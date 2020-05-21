@@ -104,13 +104,13 @@ void show_number(int num){
  
  void rolling_dice()
  {  int i;
-    for (i=1; i>7; i++){
+    for (i=1; i<7; i++){
       show_number(i);
-      delay(100);
+      delay(500);
     }
     for (i=6; i>0; i--){
       show_number(i);
-      delay(100);
+      delay(500);
     }
   
   }
