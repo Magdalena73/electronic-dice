@@ -17,6 +17,7 @@ void setup() {
   pinMode(LED_3_6, OUTPUT);
   pinMode(LED_7, OUTPUT);
   pinMode(pushButton, INPUT);
+  randomSeed(analogRead(pushButton));
   //Serial.begin(9600);
 }
 
@@ -106,11 +107,11 @@ void show_number(int num){
  {  int i;
     for (i=1; i<7; i++){
       show_number(i);
-      delay(500);
+      delay(300);
     }
     for (i=5; i>0; i--){
       show_number(i);
-      delay(500);
+      delay(300);
     }
   
   }
